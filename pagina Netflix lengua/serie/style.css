@@ -1,0 +1,109 @@
+body {
+margin: 0;
+padding: 0;
+color: azure;
+background-image: url(/Recursos\ peliculas/fondoA1.png);
+background-attachment: fixed;
+backdrop-filter: blur(10px);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {display: none;}
+
+.container {
+  overflow: hidden;
+}
+.cruz {
+    position: absolute;
+    padding-left: 640px;
+    
+}
+
+.cruz:hover img {
+    height: 50px;
+    transition: 1.5s;
+    
+}
+
+.serie {
+    z-index: -1;
+    overflow: hidden;
+    position: fixed;
+}
+
+.container {
+    padding: 5px;
+    width: 710px;
+    background-color: #292929;
+    z-index: -2;
+    
+  
+}
+
+.titulo {
+    padding-top: 390px;
+}
+
+.caracteristicas {
+    padding-top: -20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: linear-gradient(#464646,40%,rgb(43,43,43));
+    backdrop-filter: blur(10px);
+}
+
+.caracteristicas .a {
+        color: rgb(63, 206, 63);
+        font-weight: bolder;
+}
+
+.caracteristicas .c {
+    padding: 3px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.caracteristicas .e {
+    padding: 5px;
+    font-weight: bolder;
+    color: rgb(43, 43, 43);
+    background-color: #535353;
+    border-radius: 3px;
+}
+
+.caracteristicas .f {
+    padding: 5px;
+    font-weight: bolder;
+    background-color: #535353;
+    border-radius: 3px;
+    color: rgb(43, 43, 43);
+}
+
+.lista-votar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.votar {
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.episiodos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    gap: 15px;
+}
+
+.episiodos b {
+    text-align: start;
+}
+
+
+
